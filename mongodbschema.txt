@@ -1,0 +1,188 @@
+ use bankdatabase
+switched to db bankdatabase
+> db.accountInfo.find().pretty();
+{
+        "_id" : "Ben",
+        "password" : "ben@123",
+        "accountNo" : "62340987651",
+        "accountType" : "savings",
+        "ifscCode" : "ICI0023",
+        "branch" : "brookefield",
+        "mobileNo" : "9989765432",
+        "email" : "ben@gmail.com",
+        "debitCardNumber" : "4567098123458764",
+        "transactions" : [
+                {
+                        "deposit" : NumberLong(100),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(100),
+                        "date" : ISODate("2020-02-11T05:43:59.712Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(100),
+                        "balance" : NumberLong(0),
+                        "date" : ISODate("2020-02-11T05:43:59.712Z")
+                },
+                {
+                        "deposit" : NumberLong(10000),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(10000),
+                        "date" : ISODate("2020-02-11T05:58:51.084Z")
+                }
+        ],
+        "_class" : "com.cg.app.bean.AccountInfo"
+}
+{
+        "_id" : "Geetha",
+        "password" : "geetha@123",
+        "accountNo" : "62340987652",
+        "accountType" : "Current",
+        "ifscCode" : "ICI0024",
+        "branch" : "White Field",
+        "mobileNo" : "9987865432",
+        "email" : "geetha@gmail.com",
+        "debitCardNumber" : "4567098123452367",
+        "transactions" : [
+                {
+                        "deposit" : NumberLong(25000),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(25000),
+                        "date" : ISODate("2020-02-11T05:46:34.752Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(1000),
+                        "balance" : NumberLong(24000),
+                        "date" : ISODate("2020-02-11T05:46:34.752Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(10000),
+                        "balance" : NumberLong(14000),
+                        "date" : ISODate("2020-02-11T05:55:24.195Z")
+                }
+        ],
+        "_class" : "com.cg.app.bean.AccountInfo"
+}
+{
+        "_id" : "Jack",
+        "password" : "jack@123",
+        "accountNo" : "62340988923",
+        "accountType" : "Current",
+        "ifscCode" : "ICI0024",
+        "branch" : "White Field",
+        "mobileNo" : "8987866432",
+        "email" : "jack@gmail.com",
+        "debitCardNumber" : "4567098123452864",
+        "transactions" : [
+                {
+                        "deposit" : NumberLong(10000),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(10000),
+                        "date" : ISODate("2020-02-11T05:48:29.328Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(100),
+                        "balance" : NumberLong(900),
+                        "date" : ISODate("2020-02-11T05:48:29.328Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(100),
+                        "balance" : NumberLong(800),
+                        "date" : ISODate("2020-02-11T10:12:35.570Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(10),
+                        "balance" : NumberLong(790),
+                        "date" : ISODate("2020-02-11T10:14:43.582Z")
+                }
+        ],
+        "_class" : "com.cg.app.bean.AccountInfo"
+}
+{
+        "_id" : "anu",
+        "password" : "anu@123",
+        "accountNo" : "62340988923",
+        "accountType" : "Savings",
+        "ifscCode" : "ICI0024",
+        "branch" : "White Field",
+        "mobileNo" : "8987866498",
+        "email" : "anu@gmail.com",
+        "debitCardNumber" : "4567098123456288",
+        "transactions" : [
+                {
+                        "deposit" : NumberLong(10000),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(10000),
+                        "date" : ISODate("2020-02-11T06:06:35.295Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(100),
+                        "balance" : NumberLong(9900),
+                        "date" : ISODate("2020-02-11T09:44:44.008Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(10000),
+                        "balance" : NumberLong(9900),
+                        "date" : ISODate("2020-02-11T09:45:24.371Z")
+                }
+        ],
+        "_class" : "com.cg.app.bean.AccountInfo"
+}
+{
+        "_id" : "ram",
+        "password" : "ram@123",
+        "accountNo" : "62340988929",
+        "accountType" : "Savings",
+        "ifscCode" : "ICI0024",
+        "branch" : "White Field",
+        "mobileNo" : "6587866498",
+        "email" : "ram@gmail.com",
+        "debitCardNumber" : "4567098123455491",
+        "transactions" : [
+                {
+                        "deposit" : NumberLong(100),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(100),
+                        "date" : ISODate("2020-02-11T06:10:13.522Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(50),
+                        "balance" : NumberLong(50),
+                        "date" : ISODate("2020-02-11T06:38:01.471Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(10),
+                        "balance" : NumberLong(40),
+                        "date" : ISODate("2020-02-11T09:32:53.856Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(1),
+                        "balance" : NumberLong(39),
+                        "date" : ISODate("2020-02-11T09:52:52.633Z")
+                },
+                {
+                        "deposit" : NumberLong(1000),
+                        "withdraw" : NumberLong(0),
+                        "balance" : NumberLong(1039),
+                        "date" : ISODate("2020-02-11T10:17:43.040Z")
+                },
+                {
+                        "deposit" : NumberLong(0),
+                        "withdraw" : NumberLong(100),
+                        "balance" : NumberLong(939),
+                        "date" : ISODate("2020-02-11T10:21:35.254Z")
+                }
+        ],
+        "_class" : "com.cg.app.bean.AccountInfo"
+}
+>
